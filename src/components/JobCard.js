@@ -6,19 +6,25 @@ const capitalizeFirstWord = (str) => {
     return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 };
 
+const generateRandomNumber = () => {
+    return Math.floor(Math.random() * 20) + 1;
+};
+
 const JobCard = ({ job }) => {
+    const postedDaysAgo = generateRandomNumber();
+
     return (
         <div className="job-card-main-container">
             <div className="posted-days-container">
                 <div className="posted-days-inner-container">
-                    <p className="posted-days-text">⏳ Posted 10 days ago</p>
+                    <p className="posted-days-text">⏳ Posted {postedDaysAgo} days ago</p>
                 </div>
             </div>
 
 
             <div className="main-meta-container">
                 <div className="company-logo-info">
-                    <img src={weekdaylogo} alt={`${job.companyName} logo`} className="company-logo" />
+                    <img src={job.logoUrl ? job.logoUrl : weekdaylogo} alt={`${job.companyName} logo`} className="company-logo" />
                     <div className="company-meta-info">
                         <p className="company-name">{capitalizeFirstWord(job?.companyName) || "Weekday"}</p>
                         <p className="job-role">{capitalizeFirstWord(job?.jobRole)}</p>
