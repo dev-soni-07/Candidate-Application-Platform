@@ -1,71 +1,89 @@
-# Getting Started with Create React App
+## Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based web application that provides a job listing platform. It allows users to filter job listings based on various criteria such as roles, number of employees, experience, and salary expectations. The front end is built with React, utilizing Redux for state management to handle application state and asynchronous API calls.
 
-## Available Scripts
+### Features
 
-In the project directory, you can run:
+- Job listings with infinite scroll
+- Dynamic filters for job search (roles, experience, salary, etc.)
+- Responsive design for desktop and mobile views
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+Before running this project, you will need Node.js and npm installed on your computer. To install these, you can follow the [Node.js download guide](https://nodejs.org/en/download/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installing
 
-### `npm run build`
+A step by step series of examples that tell you how to get a development environment running.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://yourrepository.git
+cd your-project-folder
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install dependencies**
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Start the development server**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Building for production
 
-## Learn More
+To build the app for production, run the following command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This builds the app to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Code Splitting
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `react`: ^17.0.2
+- `react-dom`: ^17.0.2
+- `react-redux`: ^7.2.4
+- `redux`: ^4.1.1
+- `redux-thunk`: ^2.3.0
+- `react-scripts`: 4.0.3
+- `@reduxjs/toolkit`: ^1.6.1
+- `react-select`: ^4.3.1
 
-### Analyzing the Bundle Size
+## Additional Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In the project directory, you can also run:
 
-### Making a Progressive Web App
+- `npm test`: Launches the test runner in the interactive watch mode.
+- `npm run eject`: **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+We welcome contributions to our project. Please feel free to fork the repository, make changes, and submit pull requests. You can also send us suggestions for features or improvements.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-### `npm run build` fails to minify
+## Feedback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I welcome any feedback or suggestions for improvement. Feel free to submit any issues or feature requests through the GitHub repository's issue tracker.
 
+## Connect with Owner
+
+- Email: devsoni071103@gmail.com
+- LinkedIn: https://www.linkedin.com/in/dev-soni-448551216/
