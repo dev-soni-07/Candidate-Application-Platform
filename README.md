@@ -2,6 +2,10 @@
 
 This project is a React-based web application that provides a job listing platform. It allows users to filter job listings based on various criteria such as roles, number of employees, experience, and salary expectations. The front end is built with React, utilizing Redux for state management to handle application state and asynchronous API calls.
 
+### Live Demo
+
+You can view a live demo of this project deployed on Netlify: [Candidate Application System](https://candidate-application-system.netlify.app/).
+
 ### Features
 
 - Job listings with infinite scroll
